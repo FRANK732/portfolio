@@ -6,14 +6,13 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile individual,  passionate about designing algorithms and interested in Backend Development positions. Worked for tech startups in FinTech, Software Development company with strong expertise.",
   github: "https://github.com/FRANK732",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1fnvwdAfWHj_40YPR4IMBzR0bRzXiGMlJ/view",
   linkedin: "https://www.linkedin.com/in/frankaddai/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
@@ -41,10 +40,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
@@ -55,14 +50,14 @@ export const skills = [
     title: "Android",
     skills: [
       {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
         name: "Flutter",
         image:
           "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
       {
         name: "Android Studio",
@@ -121,7 +116,7 @@ export const skills = [
       {
         name: "Microservices",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://w1.pngwing.com/pngs/535/256/png-transparent-microservices-text-computer-software-line-circle-area-diagram-symmetry-organization-thumbnail.png",
       },
       {
         name: "Clean Architecture",
@@ -138,32 +133,32 @@ export const skills = [
       {
         name: "Docker",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "https://avatars.githubusercontent.com/u/7739233?s=48&v=4",
       },
       {
         name: "Kurbentes",
         image:
-          "https://kubernetes.io/images/wheel.svg",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAUVBMVEVHcEz////////////////////L1/jZ4fr///+5yPUzbucZYuUPX+RYg+r///////8va+aqvfMlZ+X////q7vyVrfD4+v5pjuuCoO4AWeQAT+OgMvJ5AAAAF3RSTlMAJoh0xv///6z//////0zZ////mP//+V8enREAAAFwSURBVHgBdZOLzqwgDAZ11w+WFlbsFpB9/wc9bUzMf24TE9HBOGl0+cn6eC7/Yd0QIl7rv1UiziX8rd+7q2q43tbf1SFcqZIdlSn90K7EBHFIQga7vtxHsymj8tGYrhX1K7wfQmYry4hhZDFnN47rUYwqaTAnwGmZxyF1wN0bTNJwKkLRMCLiiVOI4U0PZSIhYMzZY54NELGo6C/dvFBOoI8v9GsLDOuT9DKJ0/dpJCABAV16YN/ebWygahKNSWGol2WfBqynX6vBlpQL4pjNJWV9L59gsZmgMFqCoeBsueG57E3kQIemNgD04hu02922LXaqpcwDkweCgphwzFKqtH35WJAhiN8IKUhTUR3C20ar2XJlIKLNGaAY4j36WgyESWZLR0xJ0d3RDPvirGjsl5qCajjUt3LDcvHEEJ/IZGNqE3/J/Sm8QBbnY/SxWb7H3OwWJe7cSs36udUVxTczbLe4onq80b78wfNxc/8TvwBQ/hzgLPKw9wAAAABJRU5ErkJggg==",
       },
       {
         name: "Ocelot Gateway",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        "https://avatars.githubusercontent.com/u/25903473?s=48&v=4",
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://avatars.githubusercontent.com/u/10251060?s=48&amp;v=4"
       },
       {
-        name: "Adobe XD",
+        name: "RabbitMQ",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+       "https://avatars.githubusercontent.com/u/96669?s=48&v=4",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+        "https://avatars.githubusercontent.com/u/5155369?s=48&v=4",
       },
     ]
   }
@@ -172,161 +167,108 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: "https://xcelszproperty.com/hs-fs/hubfs/XP%20Logo-3.jpg?width=100&height=100&name=XP%20Logo-3.jpg",
+    role: "Software Developer Intern",
+    company: "Excelsz Properties",
+    date: "Aug 2019 - Oct 2019",
+    desc: "Build a website model that collected customer information and stored it in a database.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
+      "PHP",
       "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "MYySQL",
+      "Flutter",
+      "Rest",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    img: "https://www.ir-bankofafrica.ma/sites/default/files/styles/bmce_text_image/public/2021-05/BANK-OF-AFRICA_0_0_0_0.png?itok=SUs-PtBb",
+    role: "E-Business Support Intern",
+    company: "Bank of Africa",
+    date: "October 2022 - Nov 2022",
+    desc: "Technically monitoring transactions in real-time with teams to resolve over 200 mobile banking related complaints.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Xcel",
+      "MySQl",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: "https://www.innorik.com/images/logo.png",
+    role: "Backend Developer",
+    company: "Innorik",
+    date: "Oct 2023 - present",
+    desc: "Developing and enhancing a comprehensive Enterprise Resource Planning (ERP) system using C-Sharp and SQL database.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "C#",
+      "ASP.NET",
+      "Rest API",
+      "Clean Architecture",
+      "Authentication",
+      "SQL",
+      "Stored Procedure"
     ],
   },
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
+    role: "Flutter Mobile Devloper ",
+    company: "Ben-Meredith",
+    date: "Jan 2024 - Present",
+    desc: "Superheaded the development of a mobile tracking application using Flutter, focusing on crafting a user-friendly interface that ensures a seamless, intuitive user experience.",
+    skills:[
+      "Dart",
+      "Flutter",
+      "Clean Architecture",
+      "Rest API",
+      "GetX",
+      "Bloc"
     ],
   },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
+ 
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://www.eduopinions.com/wp-content/uploads/2022/04/University-of-Energy-and-Natural-Resources-logo-350x350.jpg",
+    school: "University of Energy and Natural Resources",
+    date: "Sep 2019 - Sep 2023",
+    degree: "Bachelor of Science - BSc, Computer Science",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
+    school: "Barekese Senior High",
+    date: "Apr 2016 - Apr 2019",
     grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    desc: "I completed my class Senior high school education at Barekese Senior High where I studied Science with Chemistry and Physics.",
+    degree: "ISC(XII), Science with Computer",  
   },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
+
 ];
 
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "Health Server",
+    date: "March 2024 - Present",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
+      "C#",
+      "ASP.NET",
       "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
+      "Microservices",
+      "Ocelot Gateway",
+      "RabbitMQ",
+      "JWt Authentication",
       "CI/CD",
-      "React Js",
       "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
     ],
-    category: "web app",
+    category: "REST API/APP",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
   },
