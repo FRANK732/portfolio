@@ -14,7 +14,7 @@ const Projects = ({openModal,setOpenModal}) => {
         <Desc>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
-        <ToggleButtonGroup >
+        {/* <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
@@ -32,20 +32,9 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
           }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
           {projects
-            .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
