@@ -21,27 +21,57 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Microsoft Asp.Net",
-        image: "https://avatars.githubusercontent.com/u/9141961?s=48&v=4",
+        name: "C#",
+        image:
+        "https://skillicons.dev/icons?i=cs",
       },
       {
-        name: "MongoDB",
+        name: "Asp.Net",
+        image: "https://skillicons.dev/icons?i=dotnet",
+      },
+      {
+        name: "RabbitMQ",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        "https://skillicons.dev/icons?i=rabbitmq",
+      },
+      {
+        name: "Docker",
+        image:
+        "https://avatars.githubusercontent.com/u/7739233?s=48&v=4",
+      },
+      {
+        name: "Kurbentes",
+        image:
+        "https://skillicons.dev/icons?i=kubernetes"
+      },
+      {
+        name: "Ocelot Gateway",
+        image:
+        "https://avatars.githubusercontent.com/u/25903473?s=48&v=4",
+      },
+      {
+        name: "Nginx",
+        image:
+        "https://skillicons.dev/icons?i=nginx",
       },
       {
         name: "Python",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://skillicons.dev/icons?i=py",
       },
       {
         name: "MySQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        "https://skillicons.dev/icons?i=mysql",
       },
       {
+        name: "MongoDB",
+        image:
+          "https://skillicons.dev/icons?i=mongodb",
+      }, 
+      {
         name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        image: "https://skillicons.dev/icons?i=firebase",
       },
     ],
   },
@@ -50,19 +80,24 @@ export const skills = [
     title: "Android",
     skills: [
       {
+        name: "Dart",
+        image:
+        "https://skillicons.dev/icons?i=dart",
+      },
+      {
         name: "Flutter",
         image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://skillicons.dev/icons?i=flutter",
       },
       {
         name: "Kotlin",
         image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+          "https://skillicons.dev/icons?i=kotlin",
       },
       {
         name: "Android Studio",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://skillicons.dev/icons?i=androidstudio",
       },
     ],
   },
@@ -70,28 +105,23 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://skillicons.dev/icons?i=react",
       },
       {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "https://skillicons.dev/icons?i=html",
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://skillicons.dev/icons?i=css",
       },
       {
         name: "JavaScript",
@@ -101,7 +131,7 @@ export const skills = [
       {
         name: "Bootstrap",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://skillicons.dev/icons?i=bootstrap",
       },
       {
         name: "Material UI",
@@ -130,35 +160,27 @@ export const skills = [
   {
     title:"Others",
     skills:[
-      {
-        name: "Docker",
-        image:
-          "https://avatars.githubusercontent.com/u/7739233?s=48&v=4",
-      },
-      {
-        name: "Kurbentes",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAUVBMVEVHcEz////////////////////L1/jZ4fr///+5yPUzbucZYuUPX+RYg+r///////8va+aqvfMlZ+X////q7vyVrfD4+v5pjuuCoO4AWeQAT+OgMvJ5AAAAF3RSTlMAJoh0xv///6z//////0zZ////mP//+V8enREAAAFwSURBVHgBdZOLzqwgDAZ11w+WFlbsFpB9/wc9bUzMf24TE9HBOGl0+cn6eC7/Yd0QIl7rv1UiziX8rd+7q2q43tbf1SFcqZIdlSn90K7EBHFIQga7vtxHsymj8tGYrhX1K7wfQmYry4hhZDFnN47rUYwqaTAnwGmZxyF1wN0bTNJwKkLRMCLiiVOI4U0PZSIhYMzZY54NELGo6C/dvFBOoI8v9GsLDOuT9DKJ0/dpJCABAV16YN/ebWygahKNSWGol2WfBqynX6vBlpQL4pjNJWV9L59gsZmgMFqCoeBsueG57E3kQIemNgD04hu02922LXaqpcwDkweCgphwzFKqtH35WJAhiN8IKUhTUR3C20ar2XJlIKLNGaAY4j36WgyESWZLR0xJ0d3RDPvirGjsl5qCajjUt3LDcvHEEJ/IZGNqE3/J/Sm8QBbnY/SxWb7H3OwWJe7cSs36udUVxTczbLe4onq80b78wfNxc/8TvwBQ/hzgLPKw9wAAAABJRU5ErkJggg==",
-      },
-      {
-        name: "Ocelot Gateway",
-        image:
-        "https://avatars.githubusercontent.com/u/25903473?s=48&v=4",
-      },
+
       {
         name: "Postman",
         image:
-          "https://avatars.githubusercontent.com/u/10251060?s=48&amp;v=4"
+          "https://skillicons.dev/icons?i=postman"
       },
-      {
-        name: "RabbitMQ",
-        image:
-       "https://avatars.githubusercontent.com/u/96669?s=48&v=4",
-      },
+     
       {
         name: "Figma",
         image:
-        "https://avatars.githubusercontent.com/u/5155369?s=48&v=4",
+        "https://skillicons.dev/icons?i=figma",
+      },
+      {
+        name: "Git",
+        image:
+        "https://skillicons.dev/icons?i=git",
+      },
+      {
+        name: "Latex",
+        image:
+        "https://skillicons.dev/icons?i=latex",
       },
     ]
   }
@@ -256,7 +278,7 @@ export const projects = [
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "",
     tags: [
       "C#",
       "ASP.NET",
@@ -272,33 +294,19 @@ export const projects = [
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
   },
-  // {
-  //   id: 0,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Frank Addai",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
+  {
+    id: 0,
+    title: "TODO",
+    date: "June 2022 - Jly 2022",
+    description:
+      "Using HTML to create a Frontend Forms & CSS for styling the forms with a Backend of PHP to Connect-Insert-Fetch-Delete data from MYSQL.",
+    image:
+      "https://user-images.githubusercontent.com/57005487/177951119-6bdfde30-4d03-4367-8bc4-f9fbf2f300c7.jpg",
+    tags: ["PHP", "HTML", "CSS", "MySQL"],
+    category: "web app",
+    github: "https://github.com/FRANK732/PHP-CRUD-Backend-to-Connect-Insert-Fetch-Delete-data-from-MYSQL",
+    webapp: "https://podstream.netlify.app/",
+  },
   // {
   //   id: 1,
   //   title: "Vexa",
